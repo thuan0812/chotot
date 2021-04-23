@@ -1,0 +1,44 @@
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+body{
+    background: url(../../../images/main-background.jpg) no-repeat fixed;
+    background-size: cover;   
+}
+.header{
+    margin-bottom:20px;
+}
+.home-link, .sign-in-link, .account-link {
+    font-size: 18px;
+    color: black;
+}
+.home, .account{
+    margin-bottom: 20px;
+}
+.logo{
+    margin-bottom: 5px;
+}
+.search{
+    border-radius: 5px;
+    padding: 5px;
+}
+.post{
+    background-color: #f9850d;
+    text-align: center;
+    padding: 3px 0;
+}
+.post-link{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.home i, .account i, .post i{
+    font-size: 20px;
+    margin-right: 2px;
+}
+.sign-in i{
+    font-size: 35px;
+    margin-right: 5px;
+}

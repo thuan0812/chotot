@@ -1,0 +1,51 @@
+.categories{
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    /* visibility: hidden; */
+}
+.categories .tittle, .new-posts .tittle{
+    font-size: 17px;
+    font-weight: bold;
+}
+.wrapper .items span{
+    font-size: 14px;
+    text-align: center;
+}
+.new-posts{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+}
+.total-items{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    grid-gap: 10px;
+}
+.items-description span{
+    font-size: 10px;
+    width: 100%;
+}
+.items-description img{
+    border-radius: 50%;
+}
+
+.items-tittle{
+    color: #222;
+    font-size: 14px!important;
+    line-height: 1.43!important;
+    text-overflow: unset;
+    text-decoration: none;
+    white-space: unset;
+    margin-top: 8px;
+    height: 40px!important;
+    display: block;
+    
+}
+.items-price{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #d0021b;
+    display: inline-block;
+}

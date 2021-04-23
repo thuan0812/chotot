@@ -1,0 +1,23 @@
+.details{
+    background-color:#fff;
+    padding: 20px;
+}
+.details .tittle{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.details .price{
+    font-size: 16px;
+    color: #c90927;
+    font-weight: 700;
+}
+.information{
+    display:grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 10px;
+}
+.information span{
+    margin-left: 5px;
+}
