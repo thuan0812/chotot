@@ -1,14 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import Header from './components/Common/Header/Header';
-import Home from './components/Home/Home';
-import Footer from './components/Common/Footer/Footer';
-import Signin from './components/SignIn/Signin';
-import Signup from './components/SignUp/Signup';
-import List from './components/ListItems/List';
-import Details from './components/DetailsItem/Details';
-
+import Header from './components/Common/Header/index';
+import Home from './components/Home/index';
+import Footer from './components/Common/Footer/index';
+import Signin from './containers/signin';
+// import Signin from './components/SignIn';
+import Signup from './components/SignUp/index';
+import List from './components/ListItems/index';
+import Details from './components/DetailsItem/index';
+import axios from 'axios';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/dangnhap" component={Signin} />
           <Route exact path="/dangky" component={Signup} />
           <Route exact path="/danhsach" component={List} />
-          <Route exact path="/chitietsp" component={Details} />
+          <Route exact path="/chitietsp" component={Details}/>
         <Footer/>
       </Router>
     </div>
